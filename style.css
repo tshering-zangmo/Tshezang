@@ -1,0 +1,105 @@
+body{
+    text-align: center;
+    
+}
+ img{
+    border-radius: 18%;
+    box-shadow: 3px 3px 4px orange;
+    float: none;
+    opacity: 0.5;
+ }
+ .okay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ /* gwdhjkh */
+ p{
+    box-shadow: 3px 3px 4px green;
+    overflow: hidden;
+    display: inline-block;
+    white-space:unset;
+   border: 1px solid #000000;
+   overflow:scroll;
+   text-overflow: clip;
+ }
+ p::first-line {
+   color: #ff0000;
+   font-variant: small-caps;
+ }
+ button{
+    background-color: chartreuse;
+    border-radius: 2%;
+    border-style: dotted;
+    text-align: center;
+    font-family: myFirstFont;
+ }
+ table, th, td, tr{
+    border: 1px dashed orangered;
+    margin: auto;
+    padding:0;
+    height:60px;
+    width:auto;
+    outline-style:none;
+    text-align:center;
+    position: static;
+    background-color: aqua;
+    border-radius: 10px;
+    color:purple;
+    height: 80px;
+    z-index: 1;
+    
+}
+    
+ #character{
+text-decoration: underline red;
+background-color: blueviolet;
+padding: 20px;
+
+ }
+ h1{
+    box-shadow: 3px 3px 4px pink;
+    transition: o,3s ease;
+    cursor: pointer;
+
+ }
+ h1:hover,
+ h1:active {
+    color: rgb(7, 7, 7);
+ }
+ ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: green;
+}
+icon{
+   color: aliceblue;
+}
+#All{
+   color:brown;
+}
+#All:hover{
+   color: blue;
+   background-color: aliceblue;
+}
+li{
+   color:rgb(130, 102, 25);
+   border: 40px solid transparent;
+  border-image: url(border.png) 50 round;
+}
+input[type=submit] :hover{
+   background-color:rebeccapurple;
+   color: #ff0000;
+ }
+ form{
+   height: auto;
+   width: 200px;
+   background-color: rgb(6, 15, 15);
+   color: chartreuse;
+   
+ }
+ code {
+   background-color: red !important;
+ }
